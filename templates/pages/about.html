@@ -1,0 +1,19 @@
+{% extends 'base.html'%}
+{% load static %}
+
+{% block title %}About{% endblock title %}
+
+{% block content %}
+<div class="container">
+    <div>
+        <h1>About Us</h1>
+        <p>Our mission is to provide a platform for people to share their thoughts and ideas with the world and each
+            other
+        </p>
+
+    </div>
+    <div>
+        <img class="about-img" src="{% static 'img/world-map.gif' %}">
+    </div>
+</div>
+{% endblock content %}
